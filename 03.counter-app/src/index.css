@@ -8,10 +8,11 @@ html, body {
 }
 
 h2 {
+  color: orange;
   display: inline-block;
+  margin: 20px;
 }
 
 button {
   font-size: 1.3rem;
-  margin: 0 16px;
 }
