@@ -2,7 +2,7 @@
 // import { Fragment } from "react";
 import { PropTypes } from "prop-types";
 
-const PrimeraApp = ({ saludo, subtitulo}) => {
+const PrimeraApp = ({ saludo, subtitulo }) => {
   // const saludo = 'Hola Mundo';
   // const saludo = 123;
   // const saludo = true; // Los valores booleanos no imprimen nada
@@ -24,7 +24,7 @@ const PrimeraApp = ({ saludo, subtitulo}) => {
 }
 
 PrimeraApp.propTypes = {
-  saludo: PropTypes.string,
+  saludo: PropTypes.string.isRequired,
 }
 
 PrimeraApp.defaultProps = {
