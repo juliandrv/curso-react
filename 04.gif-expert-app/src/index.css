@@ -1,0 +1,13 @@
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  padding: 60px;
+}
+
+input {
+  color: rgb(63, 63, 63);
+  font-size: 1.2rem;
+  width: 33%;
+}
