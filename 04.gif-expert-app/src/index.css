@@ -11,3 +11,27 @@ input {
   font-size: 1.2rem;
   width: 33%;
 }
+
+.card-grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 6px;
+  margin:  10px 0;
+  overflow: hidden;
+}
+
+.card p {
+  padding: 6px;
+  text-align: center;
+}
+
+.card img {
+  min-height: 170px;
+  width: 100%;
+}
